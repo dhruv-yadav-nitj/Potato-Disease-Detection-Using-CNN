@@ -4,7 +4,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
+# st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title('Potato Disease Detection')
 st.text("Provide the URL for Input Image: ")
 
