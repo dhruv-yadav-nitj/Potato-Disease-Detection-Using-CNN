@@ -8,7 +8,7 @@ from io import BytesIO
 st.title('Potato Disease Detection')
 st.text("Provide the URL for Input Image: ")
 
-@st.cache(allow_output_mutation= True)
+# @st.cache(allow_output_mutation= True)
 def load_model ():
     path = os.path.join(os.path.dirname(__file__), 'models')
     model = tf.keras.models.load_model(path)
