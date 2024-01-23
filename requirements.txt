@@ -68,6 +68,7 @@ sqlparse
 stack-data
 streamlit
 tenacity
+tensorflow
 threadpoolctl
 toml
 toolz
