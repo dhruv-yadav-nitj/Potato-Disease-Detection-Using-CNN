@@ -26,7 +26,7 @@ def scale(image):
     image= tf.image.resize(image, [256, 256])
 
 def decode_img (image):
-    img= tf.image.decode_image(image, channels= 3)
+    img= tf.image.decode_jpeg(image, channels= 3)
     img= scale(img)
     return np.expand_dims(img, axis= 0)
 
