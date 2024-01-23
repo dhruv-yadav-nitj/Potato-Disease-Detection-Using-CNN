@@ -30,7 +30,7 @@ def decode_img (image):
     img= scale(img)
     return np.expand_dims(img, axis= 0)
 
-path = st.text_input("Enter Image URL to Classify: ", "https://drive.google.com/file/d/1_2P_R7JbxIWLpJr_YKuOAbC1XdTCtzDS/view?usp=sharing")
+path = st.text_input("Enter Image URL to Classify: ", "https://drive.google.com/file/d/1UWrFUkxqKGj3DbUX9JfXcsKjHQrleczw/view?usp=drive_link")
 
 if path is not None:
     content = requests.get(path).content
